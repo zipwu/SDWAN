@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="sdnMapper">
+
+    <select id="findAllDevice" resultType="entity.Device">
+        select * from device
+    </select>
+
+    <select id="findDeviceById" parameterType="java.lang.Integer" resultType="entity.Device">
+        select * from device where id = #{id}
+    </select>
+    <insert id="insertDevice" parameterType="entity.Device">
+        insert into device(id,dev_serial,password,inuse,used,memo)
+        value (#{id},#{dev_serial},#{password},#{inuse},#{used},#{memo})
+    </insert>
+
+    <select id="selectAllUser" resultType="entity.User">
+        select * from user
+    </select>
+</mapper>
