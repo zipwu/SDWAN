@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.util.List;
 
-public class UserTestor {
+public class UserTester {
     public DataConnection dataConnection = new DataConnection();
 
     @Test

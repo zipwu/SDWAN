@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87af126f-927a-4206-a48c-f32317739970" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserTestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserTestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
-  <component name="RunManager" selected="JUnit.UserTestor.UserSelectAll">
+  <component name="RunManager" selected="JUnit.UserTester.UserSelectAll">
     <configuration name="DeviceTestor.DeviceInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDWAN" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,10 +87,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTestor.UserSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTester.UserSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDWAN" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserTestor" />
+      <option name="MAIN_CLASS_NAME" value="UserTester" />
       <option name="METHOD_NAME" value="UserSelectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -214,13 +210,13 @@
       <item itemvalue="JUnit.MavenTestor.demo" />
       <item itemvalue="JUnit.DeviceTestor.DeviceSelect" />
       <item itemvalue="JUnit.DeviceTestor.DeviceInsert" />
-      <item itemvalue="JUnit.UserTestor.UserSelectAll" />
       <item itemvalue="JUnit.DeviceTestor.DeviceSelectAll" />
       <item itemvalue="Maven.SDWAN []" />
+      <item itemvalue="JUnit.UserTester.UserSelectAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTestor.UserSelectAll" />
+        <item itemvalue="JUnit.UserTester.UserSelectAll" />
         <item itemvalue="JUnit.MavenTestor.demo" />
         <item itemvalue="JUnit.DeviceTestor.DeviceSelectAll" />
         <item itemvalue="JUnit.DeviceTestor.DeviceSelect" />
@@ -239,8 +235,16 @@
       <option name="presentableId" value="Default" />
       <updated>1598187642480</updated>
       <workItem from="1598187645725" duration="8528000" />
-      <workItem from="1598355943452" duration="896000" />
+      <workItem from="1598355943452" duration="1160000" />
     </task>
+    <task id="LOCAL-00001" summary="remove unused import entity.Device">
+      <created>1598357368204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598357368205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -255,23 +259,31 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove unused import entity.Device" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused import entity.Device" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1205" height="213" key="GridCell.Tab.0.bottom" timestamp="1598357232205">
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1598357366099">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1205" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357232205" />
-    <state width="1205" height="213" key="GridCell.Tab.0.center" timestamp="1598357232205">
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357366099" />
+    <state width="1204" height="213" key="GridCell.Tab.0.bottom" timestamp="1598357352721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1205" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357232205" />
-    <state width="1205" height="213" key="GridCell.Tab.0.left" timestamp="1598357232204">
+    <state width="1204" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357352721" />
+    <state width="1204" height="213" key="GridCell.Tab.0.center" timestamp="1598357352721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1205" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357232204" />
-    <state width="1205" height="213" key="GridCell.Tab.0.right" timestamp="1598357232205">
+    <state width="1204" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357352721" />
+    <state width="1204" height="213" key="GridCell.Tab.0.left" timestamp="1598357352721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1205" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357232205" />
+    <state width="1204" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357352721" />
+    <state width="1204" height="213" key="GridCell.Tab.0.right" timestamp="1598357352721">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1204" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1598357352721" />
   </component>
   <component name="masterDetails">
     <states>
