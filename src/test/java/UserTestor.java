@@ -1,5 +1,4 @@
 import datasource.DataConnection;
-import entity.Device;
 import entity.User;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
